@@ -23,8 +23,11 @@ namespace SalesWebMVC.Controllers
             return View();
         }
 
+
         public IActionResult Privacy()
         {
+            ViewData["Message"] = "minha mensagem";
+
             return View();
         }
 
